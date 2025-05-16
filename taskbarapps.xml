@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LayoutModificationTemplate xmlns="http://schemas.microsoft.com/Start/2014/LayoutModification"
-                            xmlns:taskbar="http://schemas.microsoft.com/Start/2014/TaskbarLayout"
-                            Version="1">
-  <CustomTaskbarLayoutCollection PinListPlacement="Replace">
+<LayoutModificationTemplate
+    xmlns="http://schemas.microsoft.com/Start/2014/LayoutModification"
+    xmlns:taskbar="http://schemas.microsoft.com/Start/2014/TaskbarLayout"
+    Version="1">
+  <CustomTaskbarLayoutCollection>
     <taskbar:TaskbarLayout>
       <taskbar:TaskbarPinList>
         <taskbar:AppUserModelID>Microsoft.Windows.Explorer</taskbar:AppUserModelID>
         <taskbar:AppUserModelID>Microsoft.MicrosoftEdge_8wekyb3d8bbwe!MicrosoftEdge</taskbar:AppUserModelID>
-        <taskbar:AppUserModelID>Microsoft.OutlookDesktop_8wekyb3d8bbwe!Outlook</taskbar:AppUserModelID>
+        <taskbar:AppUserModelID>Microsoft.Office.OUTLOOK.EXE.15</taskbar:AppUserModelID>
         <taskbar:AppUserModelID>MicrosoftTeams</taskbar:AppUserModelID>
-        <taskbar:AppUserModelID>Office.Win32.Word</taskbar:AppUserModelID>
-        <taskbar:AppUserModelID>Office.Win32.Excel</taskbar:AppUserModelID>
-        <taskbar:AppUserModelID>Office.Win32.OneNote</taskbar:AppUserModelID>
-        <taskbar:AppUserModelID>Office.Win32.PowerPoint</taskbar:AppUserModelID>
-        <taskbar:AppUserModelID>Windows.Settings</taskbar:AppUserModelID>
+        <taskbar:AppUserModelID>Microsoft.Office.WINWORD.EXE.15</taskbar:AppUserModelID>
+        <taskbar:AppUserModelID>Microsoft.Office.EXCEL.EXE.15</taskbar:AppUserModelID>
+        <taskbar:AppUserModelID>Microsoft.Office.ONENOTE.EXE.15</taskbar:AppUserModelID>
+        <taskbar:AppUserModelID>Microsoft.Office.POWERPNT.EXE.15</taskbar:AppUserModelID>
+        <taskbar:DesktopApp DesktopApplicationLinkPath="%APPDATA%\Microsoft\Windows\Start Menu\Programs\System Tools\Settings.lnk" />
       </taskbar:TaskbarPinList>
     </taskbar:TaskbarLayout>
   </CustomTaskbarLayoutCollection>
