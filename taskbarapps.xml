@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LayoutModificationTemplate
     xmlns="http://schemas.microsoft.com/Start/2014/LayoutModification"
+    xmlns:defaultlayout="http://schemas.microsoft.com/Start/2014/FullDefaultLayout"
+    xmlns:start="http://schemas.microsoft.com/Start/2014/StartLayout"
     xmlns:taskbar="http://schemas.microsoft.com/Start/2014/TaskbarLayout"
     Version="1">
   <CustomTaskbarLayoutCollection>
-    <taskbar:TaskbarLayout>
+    <defaultlayout:TaskbarLayout>
       <taskbar:TaskbarPinList>
-        <taskbar:AppUserModelID>Microsoft.Windows.Explorer</taskbar:AppUserModelID>
-        <taskbar:AppUserModelID>Microsoft.MicrosoftEdge_8wekyb3d8bbwe!MicrosoftEdge</taskbar:AppUserModelID>
-        <taskbar:AppUserModelID>Microsoft.Office.OUTLOOK.EXE.15</taskbar:AppUserModelID>
-        <taskbar:AppUserModelID>MicrosoftTeams</taskbar:AppUserModelID>
-        <taskbar:AppUserModelID>Microsoft.Office.WINWORD.EXE.15</taskbar:AppUserModelID>
-        <taskbar:AppUserModelID>Microsoft.Office.EXCEL.EXE.15</taskbar:AppUserModelID>
-        <taskbar:AppUserModelID>Microsoft.Office.ONENOTE.EXE.15</taskbar:AppUserModelID>
-        <taskbar:AppUserModelID>Microsoft.Office.POWERPNT.EXE.15</taskbar:AppUserModelID>
-        <taskbar:DesktopApp DesktopApplicationLinkPath="%APPDATA%\Microsoft\Windows\Start Menu\Programs\System Tools\Settings.lnk" />
+        <taskbar:DesktopApp DesktopApplicationID="Microsoft.Windows.Explorer" />
+        <taskbar:UWA AppUserModelID="MSEdge" />
+        <taskbar:UWA AppUserModelID="Microsoft.Office.OUTLOOK.EXE.15" />
+        <taskbar:UWA AppUserModelID="MSTeams_8wekyb3d8bbwe!MSTeams" />
+        <taskbar:UWA AppUserModelID="Microsoft.Office.WINWORD.EXE.15" />
+        <taskbar:UWA AppUserModelID="Microsoft.Office.EXCEL.EXE.15" />
+        <taskbar:UWA AppUserModelID="Microsoft.Office.ONENOTE.EXE.15" />
+        <taskbar:UWA AppUserModelID="Microsoft.Office.POWERPNT.EXE.15" />
       </taskbar:TaskbarPinList>
-    </taskbar:TaskbarLayout>
+    </defaultlayout:TaskbarLayout>
   </CustomTaskbarLayoutCollection>
 </LayoutModificationTemplate>
